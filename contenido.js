@@ -20,7 +20,7 @@ const contenidoSchema = new mongoose.Schema({
     type: String,
   },
   contenido: {
-    type: Buffer,
+    type: String,
     required: true,
   },
 });
